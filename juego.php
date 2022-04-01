@@ -1,3 +1,19 @@
+<?php
+    session_start();
+    
+    if (!isset($_SESSION ['usuario'])) {
+			
+        echo '
+        <script>
+            alert ("Debes iniciar sesion");
+            window.location = "../PRUEBA2/index.php";
+        </script>
+        ';    
+        session_destroy();
+        die();        
+    }
+    //session_destroy();*/
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>

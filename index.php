@@ -1,3 +1,22 @@
+<?php
+    include("reg_db_be.php");
+    include("log_db_be.php");
+    /*
+    session_start();
+    
+    if (!isset($_SESSION ['usuario'])) {
+			
+        echo '
+        <script>
+            alert ("Debes iniciar sesion");
+            window.location = "../Nuevo Proyecto/login.php";
+        </script>
+        ';    
+        session_destroy();
+        die();        
+    }*/
+    //session_destroy();*/
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
